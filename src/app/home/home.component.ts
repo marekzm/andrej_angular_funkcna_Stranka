@@ -18,11 +18,11 @@ export class HomeComponent implements OnInit {
    profiles: Object;
 
   ngOnInit() {
-    //this.data.getUsers().subscribe(data=>{this.users=data
+   
 
-   // this.data.getUsers().subscribe(data=>{
-   //  this.users=data 
-  //    console.log(this.users)
+   this.data.getUsers().subscribe(data=>{
+     this.users=data 
+      console.log(this.users)
   //  })}
 
  this.data.getUser().subscribe(data => {this.profiles = data
